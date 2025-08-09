@@ -5,7 +5,7 @@ import Loader from './components/Loader.jsx';
 const Home = lazy(() => import('./pages/Home.jsx'))
 const Blog = lazy(() => import('./pages/Blog.jsx'));
 const Trading = lazy(() => import('./pages/Trading.jsx'));
-const Navbar = lazy(() => import('/src/components/Navbar.jsx'));
+const Navbar = lazy(() => import('/src/components/navbar.jsx'));
 const ReadBlog = lazy(() => import('./pages/ReadBlog.jsx'));
 const Footer = lazy(() => import('./components/footer.jsx'));
 
