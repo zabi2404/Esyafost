@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { lazy, Suspense} from 'react';
 import Loader from './components/Loader.jsx';
-const Home = lazy(() => import('./pages/home.jsx'))
+const Home = lazy(() => import('./pages/Home.jsx'))
 const Blog = lazy(() => import('./pages/Blog.jsx'));
 const Trading = lazy(() => import('./pages/Trading.jsx'));
 const Navbar = lazy(() => import('/src/components/Navbar.jsx'));
