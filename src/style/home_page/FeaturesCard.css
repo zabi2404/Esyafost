@@ -1,0 +1,159 @@
+.GradientF {
+    width: 300px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(40px);
+}
+
+.GF1 {
+    background: #00A983;
+    background: linear-gradient(90deg, rgba(0, 169, 131, 1) 0%, rgba(182, 255, 239, 1) 99%);
+
+
+
+}
+
+.GF4 {
+    background-color: #303030;
+    top: 123px;
+    left: 88px;
+
+}
+
+.GF3 {
+    background-color: #727272;
+    top: -11px;
+    left: 20%;
+    opacity: 50%;
+}
+
+
+.GF1 {
+    width: 100px !important;
+    right: 1px;
+    bottom: -20%;
+}
+
+.Fcard h4 {
+    margin-top: .5rem;
+    background: linear-gradient(90deg, rgba(0, 169, 131, 1) 0%, rgba(182, 255, 239, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: customFont;
+}
+
+.Fcard {
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 2rem;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+
+.Fcard img {
+    margin-bottom: .3rem;
+}
+
+.C4 {
+    grid-column-start: -3;
+    margin-top: 0rem;
+}
+
+.C1 {
+    position: relative;
+    top: 8rem;
+    left: 2.5rem;
+}
+
+.C2 {
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.C3 {
+    position: relative;
+    top: 8rem;
+    right: 2.5rem;
+}
+
+
+@media (max-width:480px) {
+
+    .C1,
+    .C2,
+    .C3,
+    .C4 {
+        position: unset;
+        margin: 1rem;
+    }
+
+    .Fcard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        min-width: 40%;
+        min-height: 40%;
+        padding: .5rem;
+        margin: .5rem;
+    }
+
+    .Fcard h4 {
+        font-size: 1rem !important;
+    }
+
+    .Fcard p,
+    h4 {
+        margin-bottom: .5rem;
+    }
+}
+
+@media (min-width:481px) and (max-width: 770px) {
+
+    .Fcard h4 {
+        font-size: 1rem !important;
+    }
+
+
+    .C1,
+    .C2,
+    .C3,
+    .C4 {
+        position: unset;
+        margin: 1rem;
+    }
+
+    .Fcard {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        width: 40%;
+        height: 40%;
+        padding: .5rem;
+        margin: .5rem;
+    }
+
+    .Fcard p {
+        margin-bottom: .5rem;
+    }
+
+
+}
+
+@media (min-width:771px) and (max-width: 1050px) {
+
+    .Fcard {
+        position: static;
+        margin: 1rem 10rem;
+        text-align: center;
+
+    }
+}

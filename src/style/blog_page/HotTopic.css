@@ -1,0 +1,90 @@
+.hotTopicSection {
+    margin-bottom: 5rem;
+
+}
+
+.HotTopic-Header {
+    margin-left: 3rem;
+}
+
+.BlogLedger-Section {
+    margin: 1rem;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.BlogLedger-Section::after {
+    content: "";
+    height: 2px;
+    background-color: white;
+    opacity: 60%;
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: -36px;
+    border-radius: 2px;
+}
+
+
+.laodmore-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.readNowButton {
+    box-shadow: none;
+    border-radius: 16px;
+    padding: 11px 17px;
+    font-weight: normal;
+}
+
+.readNowButton a {
+    background: #FFFFFF;
+    background: linear-gradient(to right, #FFFFFF 0%, #9CDDCF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width:480px) {
+
+    .BlogLedger-Section {
+
+        margin: .5rem;
+        margin-bottom: 3rem;
+    }
+
+    .BlogLedger-Section::after{
+        bottom: -25px;
+    }
+}
+
+@media (min-width:481px) and (max-width: 770px) {
+
+    .BlogLedger-Section {
+        margin: 1rem;
+    }
+
+    .HotTopic-Header h2 {
+        font-size: 2rem !important;
+        margin-bottom: 1rem;
+    }
+
+
+    .HotTopic-Header {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width:771px) and (max-width: 1050px) {
+
+    .HotTopic-Header {
+        display: flex;
+        justify-content: center;
+
+    }
+}

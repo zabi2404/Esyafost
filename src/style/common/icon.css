@@ -1,0 +1,66 @@
+.icon {
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(#292929, #292929) padding-box,
+        linear-gradient(10deg, rgba(0, 0, 0, 1) 10%, rgba(0, 81, 63, 1) 75%) border-box !important;
+    border-radius: 16px !important;
+    border: 1.5px solid transparent !important;
+    border-radius: 50% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+
+.icon-div {
+    height: 35px;
+    width: 35px;
+    background: linear-gradient(#292929, #292929) padding-box,
+        linear-gradient(10deg, rgba(0, 0, 0, 1) 10%, rgba(0, 81, 63, 1) 75%) border-box !important;
+    border-radius: 16px !important;
+    border: 1px solid transparent !important;
+    border-radius: 50% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .3rem;
+}
+
+@media (max-width:480px) {
+
+    .icon {
+        top: 1px;
+        right: 17px;
+
+    height: 30px;
+    width: 30px;
+    order: -1;
+    margin: 0 !important;
+    position: absolute; }
+}
+
+@media (min-width:481px) and (max-width: 770px) {
+
+    .icon {
+        top: 1px;
+        right: 17px;
+
+        height: 35px;
+        width: 35px;
+        order: -1;
+        margin: 0 !important;
+        position: absolute;
+    }
+}
+
+
+@media (min-width: 771px) and (max-width: 991px) {
+    .icon {
+        top: 1px;
+        right: 17px;
+        order: -1;
+        margin: 0 !important;
+        position: absolute;
+    }
+}

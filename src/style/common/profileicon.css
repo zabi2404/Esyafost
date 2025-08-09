@@ -1,0 +1,54 @@
+.profile-icon {
+    height: 40px;
+    width: 40px;
+    background-color: #1ab593;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    margin-right: 3rem;
+}
+
+.profile-icon img {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+
+@media (max-width: 480px) {
+    .profile-icon {
+        top: 1px;
+        right: 52px;
+        height: 30px;
+        width: 30px;
+        order: -1;
+        margin: 0 !important;
+        position: absolute;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 770px) {
+    .profile-icon  {
+        top: 1px;
+        right: 55px;
+        height: 35px;
+        width: 35px;
+        order: -1;
+        margin: 0 !important;
+        position: absolute;
+    }
+}
+
+
+
+
+@media (min-width: 771px) and (max-width: 991px) {
+    .profile-icon {
+        top: 1px;
+        right: 60px;
+        order: -1;
+        margin: 0 !important;
+        position: absolute;
+    }
+}
+

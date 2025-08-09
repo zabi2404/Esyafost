@@ -1,0 +1,270 @@
+/* .. */
+
+/* BACKROUND TABLE */
+
+.gradient-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  border-radius: 16px;
+  z-index: -1;
+}
+
+.GradientL {
+  width: 1000px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  filter: blur(40px);
+}
+
+.GL1,
+.GL2 {
+  background: #00a983;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 169, 131, 1) 0%,
+    rgba(182, 255, 239, 1) 99%
+  );
+}
+
+.GL4 {
+  background-color: #303030;
+  top: 123px;
+  left: 88px;
+}
+
+.GL3 {
+  background-color: #727272;
+  top: -11px;
+  left: -48px;
+}
+
+.GL2 {
+  bottom: -32px;
+  left: 2px;
+  width: 80px !important;
+}
+
+.GL1 {
+  width: 150px !important;
+  height: 103px;
+  right: -77px;
+  bottom: 34%;
+}
+
+/* .. */
+
+.second-container {
+  position: relative;
+  margin-top: 8rem;
+}
+
+.S-heading {
+  text-align: center;
+}
+
+.table-scroll tr td:nth-child(3) {
+  color: #1ab593;
+}
+
+.table-scroll tr td:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.Listing-Block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0px 4.5rem;
+}
+
+.table-scroll th {
+  padding: 1.3rem 1rem;
+}
+
+.Coins {
+  margin: 2.5rem 1rem 4rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.listing-box {
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.1px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 2.5rem 0rem 4rem 0.5rem;
+  padding-top: 1.5rem;
+}
+
+.listing-box table {
+  width: 100%;
+}
+
+.underline {
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.underline::after {
+  content: "";
+  display: block;
+  margin: 0.5rem auto 0 auto;
+  border-radius: 2px;
+  height: 3px;
+  width: 17%;
+  background: #00a983;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 169, 131, 1) 0%,
+    rgba(182, 255, 239, 1) 99%
+  );
+}
+
+@media (max-width: 480px) {
+  .second-container {
+    margin: 0.5rem;
+    margin-top: 3rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  .table-scroll {
+    overflow-y: auto;
+    max-height: 220px;
+    scrollbar-width: none;
+  }
+
+  .table-scroll th {
+    padding: 1rem 1rem;
+  }
+
+  .Listing-Block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .listing-box {
+    margin-top: 32px;
+    height: 100%;
+    margin-bottom: 1rem;
+    overflow-y: scroll;
+    padding-top: 0.5rem;
+  }
+
+  .underline {
+    padding-bottom: 0;
+  }
+
+  .listing-box table {
+    width: 250px;
+    height: 250px;
+    overflow-y: scroll;
+  }
+
+  .listing-box img {
+    height: 15px;
+    width: 15px;
+  }
+
+  .listing-box h3 {
+    font-size: 1rem !important;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 770px) {
+  .second-container {
+    margin-top: 3rem;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  .table-scroll {
+    overflow-y: scroll;
+    scrollbar-width: none;
+    max-height: 285px;
+  }
+
+  .table-scroll th {
+    padding: 1rem 1rem;
+  }
+
+  .Listing-Block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .Coins {
+    grid-template-columns: 1fr 1fr;
+
+    margin: 0.5rem 0;
+  }
+
+  .listing-box {
+    margin-top: 0.5rem;
+    height: 100%;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .listing-box h3 {
+    font-size: 1rem !important;
+  }
+
+  .listing-box table {
+    max-width: 390px;
+    min-height: 310px;
+    overflow-y: scroll;
+  }
+
+  .listing-box img {
+    height: 20%;
+    width: 20%;
+  }
+}
+
+@media (min-width: 771px) and (max-width: 1050px) {
+  .second-container {
+    margin-top: 3rem;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  .Listing-Block {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 2.5rem;
+  }
+
+  .listing-box {
+    margin-top: 0.5rem;
+    height: 100%;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    max-width: 420px;
+    width: 100%;
+  }
+}

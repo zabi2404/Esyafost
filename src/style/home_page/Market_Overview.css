@@ -1,0 +1,237 @@
+.Fheader {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+.btn-gradient-2 {
+    background: linear-gradient(#292929, #292929) padding-box,
+        linear-gradient(10deg, rgba(0, 0, 0, 1) 10%, rgba(0, 81, 63, 1) 75%) border-box !important;
+    border-radius: 16px !important;
+    border: 1.5px solid transparent !important;
+}
+button img {
+  margin-bottom: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.Coin-Table-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Coin-Table-nav button {
+  padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+  color: white;
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+  min-width: 10%;
+}
+
+select {
+  padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+
+  color: white;
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+select option {
+  background-color: #303030;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.Coin-Table-nav .All {
+  min-width: 5% !important;
+}
+
+.active {
+  border: solid 1px #00a983 !important;
+  box-shadow: none !important;
+}
+
+.active span {
+  background: -webkit-linear-gradient(#ddf4f0, #1ab593);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Coin-Table2 {
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.1px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 3rem auto;
+  overflow: hidden;
+  width: 90%;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+
+@media (max-width:480px) {
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: .5rem;
+}
+
+
+.Fheader {
+    margin-bottom: 1.5rem;
+}
+
+.Fheader h4 {
+    font-size: 0.5rem;
+}
+
+.Coin-Table-nav {
+
+    flex-wrap: wrap;
+    margin: 0rem;
+}
+
+
+
+.Coin-Table2 {
+    overflow-x: scroll;
+    margin: 1rem 0 1rem;
+}
+
+
+th img {
+    width: 10px;
+}
+
+.Coin-Table-nav button {
+    margin: .1rem .2rem .2rem .2rem !important;
+    font-size: 0.5rem;
+    /* width: 20%; */
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 12%;
+}
+
+button img {
+    width: 10px;
+    margin: 0;
+}
+
+select {
+    font-size: 0.5rem;
+    width: 50%;
+    margin-top: .1rem;
+    margin-left: initial;
+    margin-bottom: initial;
+}
+
+
+.Coin-Table-nav .All {
+
+    min-width: 14% !important;
+    margin: 0;
+}
+
+.Fheader div {
+    margin-bottom: 0;
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 770px) {
+    .fourth-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        margin: .1rem 2.5rem;
+    }
+
+
+    .Fheader {
+        margin-bottom: .5rem;
+    }
+
+    .Fheader h4 {
+        font-size: 0.5rem;
+    }
+
+    .Coin-Table-nav {
+
+        flex-wrap: wrap;
+        margin: 1rem;
+    }
+
+
+
+
+
+
+
+    .Coin-Table-nav button {
+        margin: .1rem .2rem .2rem .2rem !important;
+        font-size: 0.5rem;
+        min-width: 20%;
+        white-space: nowrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    button img {
+        width: 10px;
+        margin: 0 !important;
+
+    }
+
+    select {
+        font-size: 0.5rem;
+        min-width: 20%;
+        margin: .1rem .2rem .2rem .2rem !important;
+    }
+
+
+    .Coin-Table-nav .All {
+        min-width: 20% !important;
+        margin: 0;
+    }
+
+    .Fheader div {
+        margin-bottom: 0;
+    }
+
+}
+
+@media (min-width: 771px) and (max-width: 1050px) {
+    .fourth-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+
+    }
+
+
+    .Fheader div {
+        margin-bottom: 0;
+    }
+}
+

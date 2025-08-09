@@ -1,0 +1,156 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: customFontRegular;
+}
+
+
+:root {
+    --laptop-heading-size: 2.5rem;
+    --laptop-text-size: 1.125rem;
+    --tab-heading-size: 2rem;
+    --tab-text-size: 1rem;
+    --mobile-heading-size: 1.5rem;
+    --mobile-text-size: 1rem;
+
+}
+
+/* CUSTOM FONTS */
+
+@font-face {
+    font-family: customFont;
+    src: url("/sf-pro-display/SFPRODISPLAYBOLD.OTF");
+}
+
+@font-face {
+    font-family: customFontRegular;
+    src: url("/sf-pro-display/SFPRODISPLAYREGULAR.OTF");
+}
+
+
+h1 {
+    font-size: var(--laptop-heading-size) !important;
+    background: linear-gradient(to right, #FFFFFF 0%, #9CDDCF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: customFont, sans-serif;
+}
+
+h2,
+h3,
+h4,
+button {
+    font-family: customFontRegular;
+}
+
+p {
+    opacity: 70%;
+}
+
+p,
+ul,
+a,
+table th,
+td {
+    font-size: var(--laptop-text-size) !important;
+    font-family: customFontRegular;
+}
+.background-image {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+
+@media (max-width: 480px) {
+
+    h2,
+    h3,
+    h4 {
+        font-size: 1rem !important;
+        font-family: customFontRegular;
+    }
+
+    h1 {
+        font-size: var(--mobile-heading-size) !important;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: var(--mobile-text-size) !important;
+    }
+
+    p,
+    table th {
+        font-size: var(--mobile-text-size) !important;
+        font-family: customFontRegular !important;
+    }
+
+
+    td,
+    a,
+    ul {
+        font-size: .9rem !important;
+        font-family: customFontRegular !important;
+    }
+}
+
+@media (min-width:481px) and (max-width: 770px) {
+
+    h2,
+    h3,
+    h4 {
+        font-size: 1.3rem !important;
+        font-family: customFontRegular;
+    }
+
+    h1 {
+        font-size: var(--tab-heading-size) !important;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: var(--tab-text-size) !important;
+    }
+
+    p,
+    table th {
+        font-size: var(--tab-text-size) !important;
+        font-family: customFontRegular !important;
+    }
+
+
+
+    td,
+    a,
+    ul {
+        font-size: .85rem !important;
+        font-family: customFontRegular !important;
+    }}
+
+
+    @media (min-width:771px) and (max-width: 1050px) {
+
+        h2,
+        h3,
+        h4 {
+            font-size: 1.8rem !important;
+            font-family: customFontRegular;
+        }
+
+        h1 {
+            font-size: 2.3rem !important;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: 1.1rem !important;
+        }
+
+        td,
+        a,
+        ul {
+            font-size: 1rem !important;
+            font-family: customFontRegular !important;
+        }
+    }

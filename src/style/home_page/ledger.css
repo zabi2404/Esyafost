@@ -1,0 +1,304 @@
+.GradientL {
+    width: 1000px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(40px);
+}
+
+.GL1 {
+    background: #00A983;
+    background: linear-gradient(90deg, rgba(0, 169, 131, 1) 0%, rgba(182, 255, 239, 1) 99%);
+
+}
+
+.GL4 {
+    background-color: #303030;
+    top: 123px;
+    left: 88px;
+
+}
+
+.GL3 {
+    background-color: #727272;
+    bottom: -32px;
+    left: 101px;
+
+}
+
+
+.GL1 {
+    width: 80px !important;
+    right: -26px;
+    bottom: 39%;
+}
+
+/* .. */
+
+.Sixth-Section {
+    margin-top: 2rem;
+    position: relative;
+}
+
+.Sheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Ledger-Section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 2rem;
+
+
+
+}
+
+.LFC h4 {
+    font-size: 3.5rem !important;
+
+}
+
+.LC-section a img {
+    width: auto !important;
+    margin-left: .2rem;
+}
+
+.LC-section h4 {
+    font-weight: bold;
+}
+
+.LedgerCard,
+.LedgerFullCard {
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 1rem;
+    overflow: hidden;
+}
+
+.LC {
+    background: url(./images/icons/LEDGER-CARD/Rectangle\ 828182.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.LFC {
+    margin-left: 1rem;
+    padding-left: 1.2rem !important;
+}
+
+.LFC h4 {
+    font-size: 3rem;
+    font-family: customFontRegular !important;
+    font-weight: normal;
+    opacity: .7;
+    -webkit-text-stroke: 1px #979797;
+}
+
+.LedgerCard img {
+    width: 100%;
+}
+
+.LC-section {
+    padding: 1rem 1rem 1.5rem 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+
+.LedgerCard a {
+    text-decoration: none;
+    background: -webkit-linear-gradient(#ddf4f0, #1ab593);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.g3 {
+    left: auto !important;
+    top: 800px;
+    opacity: 0.5;
+}
+
+.g4 {
+    right: 50px;
+    top: 450px;
+    opacity: 0.5;
+    left: auto !important;
+}
+
+@media (max-width:480px) {
+
+    .Sheader p {
+        font-size: 0.6rem;
+        text-align: center;
+    }
+
+    .Sheader {
+        text-align: center;
+    }
+
+    .Ledger-Section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin: auto;
+        margin: 0.5rem;
+    }
+
+    .LedgerCard,
+    .LC {
+        margin: .5rem;
+        border-radius: 26px;
+    }
+
+    .LC-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem;
+
+    }
+
+    .LC-section h4 {
+        font-size: 1rem !important;
+
+    }
+
+    .LC-section p {
+        margin-bottom: 0;
+        font-size: 0.5rem;
+    }
+
+    .LC-section a {
+        font-size: 0.5rem;
+    }
+
+    /* a img {
+    width: 20% !important;
+    margin-left: .1rem;
+    margin-bottom: .1rem;
+  } */
+
+    .LC {
+
+        justify-content: center;
+    }
+
+    .LedgerFullCard h4 {
+        font-size: 2rem !important;
+    }
+
+    .LFC {
+        margin: auto;
+        padding: 0.1 !important;
+    }
+}
+
+@media (min-width:481px) and (max-width: 770px) {
+
+    .Sixth-Section {
+        margin: .5rem;
+    }
+
+    .Sheader p {
+        text-align: center;
+    }
+
+    .Sheader {
+        margin: 0 1.5rem;
+        text-align: center;
+    }
+
+    .Ledger-Section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: auto;
+        margin: 2rem;
+    }
+
+    .LedgerCard {
+
+        margin: .5rem;
+        /* height: 150px;
+    width: 150px; */
+        border-radius: 26px;
+
+        /* margin-left: 2.5rem; */
+    }
+
+    .LC-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0.5rem;
+
+    }
+
+    .LFC {
+        margin: auto;
+        padding: initial !important;
+    }
+
+    .LC-section h4 {
+        font-size: 1rem !important;
+        margin-bottom: .2rem;
+    }
+
+    .LC-section p {
+        margin-bottom: 0;
+        font-size: 0.5rem;
+    }
+
+    .LC-section a {
+        font-size: 0.5rem;
+    }
+
+    /* a img {
+    width: 20% !important;
+    margin-left: .1rem;
+    margin-bottom: .1rem;
+  } */
+
+    .LC {
+        margin: .5rem;
+
+        /* height: 150px;
+    width: 150px; */
+        border-radius: 26px;
+        justify-content: center;
+
+    }
+
+    .LC h4 {
+        font-size: 1rem !important;
+    }
+
+}
+
+@media (min-width:771px) and (max-width: 1050px) {
+    .LC-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+}

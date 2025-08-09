@@ -1,0 +1,142 @@
+.third-section {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+
+.Coin-Table td:nth-child(1),
+.Coin-Table2 tr td:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+}
+
+
+.Theader {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+
+
+
+
+.Coin-Table {
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 0 3rem;
+    overflow: hidden;
+    width: 90%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+
+
+
+
+
+
+
+.Coin-Table table tr td:nth-child(4),
+.Coin-Table2 table tr td:nth-child(4) {
+    color: red;
+}
+
+
+
+.Coin-Table2 table,
+.Coin-Table table {
+    width: 130%;
+}
+
+
+
+@media (max-width:480px) {
+
+
+
+    .Theader {
+        margin: 1rem 0 auto;
+    }
+
+    .Theader div {
+        margin: auto;
+    }
+
+    .Theader h4 {
+        font-size: 0.5rem;
+    }
+
+    .Coin-Table {
+        margin: 1rem 1rem 1rem 1rem;
+        overflow-x: scroll;
+        width: 300px;
+    }
+
+
+
+
+
+    .third-section {
+        margin: .5rem;
+        margin-bottom: auto;
+    }
+
+
+
+
+/*
+    td img {
+        height: 50%;
+        width: 50%;
+
+    } */
+
+
+}
+
+@media (min-width:481px) and (max-width: 770px) {
+
+
+
+.Theader {
+    margin-top: 1rem;
+    margin-bottom: auto;
+}
+
+.Theader div {
+    margin: auto;
+}
+
+.Theader h4 {
+    font-size: 0.5rem;
+}
+
+
+.Coin-Table {
+    margin: 1rem;
+    width: 100%;
+}
+
+
+
+}
+
+@media (min-width:771px) and (max-width: 1050px) {
+
+
+}

@@ -1,0 +1,172 @@
+
+.form-control {
+background-color:   linear-gradient(180deg, rgba(0, 81, 63, 1) 78%, rgba(0, 0, 0, 1) 100%);
+    padding-left: 2.5rem !important;
+}
+
+
+::placeholder {
+    color: white !important;
+}
+
+.bg-body-tertiary{
+background-color: black !important;
+color: white;
+}
+.navbar,
+.bg-body-tertiary,
+nav {
+    background-color: black !important;
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+
+
+:hover .nav-link {
+    color: white !important;
+}
+
+
+@media (max-width: 480px) {
+
+    /* NAVBAR */
+    .sm-2 {
+        width: 30%;
+    }
+
+
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .ms-auto {
+        margin-left: initial !important;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .ms-auto a {
+        font-size: var(--mobile-text-size) !important;
+    }
+
+    .icon,
+    .profile-icon,
+    .profile-icon img {
+        height: 30px;
+        width: 30px;
+        order: -1;
+        margin: 0 !important;
+        position: absolute;
+    }
+
+    .icon {
+        top: 1px;
+        right: 17px;
+    }
+
+    .profile-icon {
+        top: 1px;
+        right: 52px;
+    }
+
+    .icon img {
+        width: 12px;
+    }
+
+}
+
+@media (min-width:481px) and (max-width: 770px) {
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .ms-auto {
+        margin-left: initial !important;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .ms-auto a {
+        font-size: var(--tab-text-size) !important;
+    }
+
+    .icon,
+    .profile-icon,
+    .profile-icon img {
+        height: 35px;
+        width: 35px;
+        order: -1;
+        margin: 0 !important;
+        position: absolute;
+    }
+
+    .icon {
+        top: 1px;
+        right: 17px;
+    }
+
+    .profile-icon {
+        top: 1px;
+        right: 55px;
+    }
+
+    .icon img {
+        width: 12px;
+    }
+}
+
+
+@media (min-width:771px) and (max-width: 991px) {
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .ms-auto {
+        margin-left: initial !important;
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .ms-auto a {
+        font-size: var(--laptop-text-size) !important;
+    }
+
+    .icon,
+    .profile-icon,
+    .profile-icon img {
+
+        order: -1;
+        margin: 0 !important;
+        position: absolute;
+    }
+
+    .icon {
+        top: 1px;
+        right: 17px;
+    }
+
+    .profile-icon {
+        top: 1px;
+        right: 60px;
+    }
+
+}
+

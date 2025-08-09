@@ -1,0 +1,37 @@
+.myButton {
+    box-shadow: inset 2px 3px 3px 0px #fdfffc;
+    background-color: #43c9aa !important;
+    border-radius: 45px;
+    display: inline-block;
+    color: #ffffff;
+    font-family: customFont;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 11px 20px;
+    text-decoration: none;
+    background: none;
+}
+
+
+@media (max-width: 480px) {
+.myButton {
+    font-weight: normal;
+    padding: 6px 9px;
+
+}
+
+}
+
+
+@media (min-width:481px) and (max-width: 770px) {
+
+
+    .myButton {
+        font-weight: bold;
+        font-size: .8rem;
+        padding: 7px 19px;
+    }
+}
+
+
+@media (min-width:771px) and (max-width: 1050px) {}
