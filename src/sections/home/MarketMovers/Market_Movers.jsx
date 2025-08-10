@@ -1,7 +1,5 @@
 import React from "react";
-import "/src/style/home_page/Market_movers.css"
-import TableRow from "./TableRow";
-import { tableData, MarketMoverstableData } from "/public/coins";
+import "../../../style/home_page/Market_movers.css"
 import Input from "/src/components/Input.jsx";
 import MainTable from "./Main_table";
 

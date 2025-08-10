@@ -1,6 +1,6 @@
 import React from "react";
 import "/src/style/blog_page/HotTopic.css"
-import LedgerCard from "../../home/Ledger/LedgerCard";
+import LedgerCard from "../../home/ledger/LedgerCard";
 import { HotTopicLedgerCardData } from "/public/coins";
 
 function HotTopic(){

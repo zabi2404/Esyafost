@@ -1,5 +1,5 @@
 import React from "react";
-import "/src/style/trading_page/TradingSecondSection.css"
+import "../../../style/trading_page/TradingSecondSection.css"
 import TableRow from "../home/MarketMovers/TableRow";
 import { TradeBook } from "/public/coins";
 

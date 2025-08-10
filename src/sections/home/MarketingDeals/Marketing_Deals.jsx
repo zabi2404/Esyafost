@@ -1,5 +1,5 @@
 import React from "react";
-import "/src/style/home_page/Marketing_deal.css"
+import "../../../style/home_page/Marketing_deal.css";
 import CoinsData from "/public/coins.js"
 import TableRow from "../MarketMovers/TableRow";
 import { tableData } from "/public/coins";

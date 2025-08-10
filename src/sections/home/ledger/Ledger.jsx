@@ -1,5 +1,5 @@
 import React from "react";
-import "/src/style/home_page/ledger.css";
+import "../../..//style/home_page/ledger.css";
 import { LedgerCardData } from "/public/coins";
 import LedgerCard from "./LedgerCard";
 import Button from "/src/components/button";

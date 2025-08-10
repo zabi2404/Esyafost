@@ -1,5 +1,5 @@
 import React from "react";
-import "/src/style/trading_page/TradingHeader.css"
+import "../../../style/trading_page/TradingHeader.css"
 
 
 function TradingHeader()  {

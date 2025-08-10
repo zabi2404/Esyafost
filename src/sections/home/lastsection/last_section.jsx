@@ -1,5 +1,5 @@
 import React from "react";
-import "/src/style/home_page/Last_Section.css"
+import "../../../style/home_page/Last_Section.css"
 import Button from "/src/components/button";
 
 function LastSection (){

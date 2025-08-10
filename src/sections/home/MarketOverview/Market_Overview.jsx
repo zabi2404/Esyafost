@@ -1,6 +1,5 @@
 import React from "react";
-import "/src/style/home_page/Market_Overview.css"
-import MarketMovers from "../MarketMovers/Market_Movers";
+import "../../../style/home_page/Market_Overview.css"
 import Input from "/src/components/Input.jsx"
 import MainTable from "../MarketMovers/Main_table";
 

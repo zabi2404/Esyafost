@@ -1,5 +1,5 @@
 import React from "react";
-import "/src/style/home_page/FeaturesCard.css"
+import "../../../style/home_page/FeaturesCard.css"
 import FeatureCard from "./Feature_Card";
 import { tableData, MarketMoverstableData, featureCards } from "/public/coins";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "/src/style/readblog/ArticleSection.css"
+import "../../../style/readblog/ArticleSection.css"
 import { FaLink } from "react-icons/fa6";
 
 
