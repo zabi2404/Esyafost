@@ -1,5 +1,5 @@
 import React from "react";
-import "/src/style/common/footer.css"
+import "/src/style/common/Footer.css"
 
 
 function FooterMenu(props){
