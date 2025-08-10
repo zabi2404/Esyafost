@@ -1,6 +1,6 @@
 import React from "react";
 import "/src/style/readblog/ArticleSection.css"
-import LedgerCard from "../../home/Ledger/LedgerCard";
+import LedgerCard from "../../home/ledger/LedgerCard";
 import { LedgerCardData } from "/public/coins";
 
 
