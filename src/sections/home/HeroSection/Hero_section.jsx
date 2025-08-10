@@ -1,5 +1,6 @@
-import "/src/style/common/navbar.css"
-import "/src/style/home_page/hero_section.css"
+import"../../../style/common/navbar.css"
+import"../../../style/home_page/hero_section.css"
+
 import Button from "/src/components/button.jsx";
 
 
