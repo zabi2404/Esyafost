@@ -1,4 +1,4 @@
-import "/src/style/common/footer.css"
+import "../style/common/footer.css"
 import Icon from "./Icon";
 import FooterMenu from "./footer_menu";
 
