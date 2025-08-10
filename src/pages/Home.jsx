@@ -4,7 +4,7 @@ import MarketingDeal from "../sections/home/MarketingDeals/Marketing_Deals"
 import MarketMovers from "../sections/home/MarketMovers/Market_Movers"
 import MarketOverview from "../sections/home/MarketOverview/Market_Overview";
 import Features from "../sections/home/Features/Features";
-import Ledger from "../sections/home/Ledger/Ledger";
+import Ledger from "../sections/home/ledger/ledger";
 import LastSection from "../sections/home/lastsection/last_section";
 
 
