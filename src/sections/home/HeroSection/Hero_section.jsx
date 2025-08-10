@@ -1,4 +1,4 @@
-import"../../../style/common/navbar.css"
+import"../../../style/common/Navbar.css"
 import"../../../style/home_page/hero_section.css"
 
 import Button from "/src/components/button.jsx";
